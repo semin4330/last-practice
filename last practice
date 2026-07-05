@@ -16,7 +16,7 @@ some_digit_image = some_digit.reshape(28, 28)
 plt.imshow(some_digit_image, cmap=mpl.cm.binary)
 plt.show()
 import numpy as np
-print(y[0:7])
+print(y[0:7]) # 04:38 수정
 y = y.astype(np.uint8)
 print(y[0:7])
 
