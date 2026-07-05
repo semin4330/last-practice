@@ -5,6 +5,7 @@ mnist.keys()
 X, y = mnist["data"], mnist["target"]
 print(X.shape)
 print(y.shape)
+# 저 말인가요?
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
