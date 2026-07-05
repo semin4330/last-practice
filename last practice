@@ -19,8 +19,8 @@ print(y[0:7])
 y = y.astype(np.uint8)
 print(y[0:7])
 
-X_train, X_test, y_train, y_test = X[:70000], X[70000:], y[:70000], y[70000:] # 여기 수정
-y_train_5 = (y_train == 5)
+X_train, X_test, y_train, y_test = X[:70000], X[70000:], y[:70000], y[70000:] # 여기 수정 
+y_train_5 = (y_train == 5) # branch cha에서 수정
 y_test_5 = (y_test == 5)
 print(y_train_5)
 print(y_test_5)
