@@ -3,8 +3,8 @@ mnist = fetch_openml('mnist_784', version=100, as_frame=True)
 mnist.keys()
 
 X, y = mnist["data"], mnist["target"]
-print(X.shape)
-print(y.shape)
+print(X)
+print(y)
 # 저 말인가요?
 
 import matplotlib as mpl
